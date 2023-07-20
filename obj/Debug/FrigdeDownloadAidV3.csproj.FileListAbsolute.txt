@@ -1,0 +1,20 @@
+C:\Users\jsvan\OneDrive\Desktop\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.csproj.AssemblyReference.cache
+C:\Users\jsvan\OneDrive\Desktop\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.csproj.SuggestedBindingRedirects.cache
+C:\Users\jsvan\OneDrive\Desktop\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.csproj.CoreCompileInputs.cache
+C:\Users\jsvan\OneDrive\Desktop\FrigdeDownloadAidV3\bin\Debug\FrigdeDownloadAidV3.exe.config
+C:\Users\jsvan\OneDrive\Desktop\FrigdeDownloadAidV3\bin\Debug\FrigdeDownloadAidV3.exe
+C:\Users\jsvan\OneDrive\Desktop\FrigdeDownloadAidV3\bin\Debug\FrigdeDownloadAidV3.pdb
+C:\Users\jsvan\OneDrive\Desktop\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.exe
+C:\Users\jsvan\OneDrive\Desktop\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.pdb
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\bin\Debug\FrigdeDownloadAidV3.exe.config
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\bin\Debug\FrigdeDownloadAidV3.exe
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\bin\Debug\FrigdeDownloadAidV3.pdb
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.csproj.AssemblyReference.cache
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.csproj.SuggestedBindingRedirects.cache
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.csproj.CoreCompileInputs.cache
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.exe
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.pdb
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\James\Desktop\Cool Trans Project\Project\FrigdeDownloadAidV3\obj\Debug\FrigdeDownloadAidV3.csproj.CopyComplete
