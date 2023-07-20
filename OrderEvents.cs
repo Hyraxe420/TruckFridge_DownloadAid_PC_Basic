@@ -18,7 +18,7 @@ namespace FrigdeDownloadAidV3
             char[] breakpoint = { '\t' };
             string[] temp_list = { };
             int content_count = content_list.Count;
-            for (int i = content_count - 20; i < content_count; i++)
+            for (int i = content_count - 120; i < content_count; i++)
             {
                 temp_list = content_list[i].Split(breakpoint);
 

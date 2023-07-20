@@ -22,7 +22,7 @@ namespace FrigdeDownloadAidV3
             int ErrorCount = Errors.Count()+1;
             int Row = 1;
 
-            for (int i = ErrorCount - 3; i < ErrorCount; i++)
+            for (int i = ErrorCount - 5; i < ErrorCount; i++)
             {
                 ExcelCell ErrorCell = worksheet.Cells[$"A{Row}"];
                 ExcelCell ErrorTimeCell = worksheet.Cells[$"B{Row}"];
@@ -37,35 +37,35 @@ namespace FrigdeDownloadAidV3
                 Row++;
             }
 
-            ExcelCell cellA = worksheet.Cells["A4"];
-            ExcelCell cellB = worksheet.Cells["B4"];
-            ExcelCell cellC = worksheet.Cells["C4"];
-            ExcelCell cellD = worksheet.Cells["D4"];
-            ExcelCell cellE = worksheet.Cells["E4"];
-            ExcelCell cellF = worksheet.Cells["F4"];
-            ExcelCell cellG = worksheet.Cells["G4"];
-            ExcelCell cellH = worksheet.Cells["H4"];
-            ExcelCell cellI = worksheet.Cells["I4"];
-            ExcelCell cellJ = worksheet.Cells["J4"];
-            ExcelCell cellK = worksheet.Cells["K4"];
-            ExcelCell cellL = worksheet.Cells["L4"];
-            ExcelCell cellM = worksheet.Cells["M4"];
-            ExcelCell cellN = worksheet.Cells["N4"];
-            ExcelCell cellO = worksheet.Cells["O4"];
-            ExcelCell cellP = worksheet.Cells["P4"];
-            ExcelCell cellQ = worksheet.Cells["Q4"];
-            ExcelCell cellR = worksheet.Cells["R4"];
-            ExcelCell cellS = worksheet.Cells["S4"];
-            ExcelCell cellT = worksheet.Cells["T4"];
-            ExcelCell cellU = worksheet.Cells["U4"];
-            ExcelCell cellV = worksheet.Cells["V4"];
-            ExcelCell cellW = worksheet.Cells["W4"];
-            ExcelCell cellY = worksheet.Cells["Y4"];
-            ExcelCell cellX = worksheet.Cells["X4"];
-            ExcelCell cellZ = worksheet.Cells["Z4"];
-            ExcelCell cellAA = worksheet.Cells["AA4"];
-            ExcelCell cellAB = worksheet.Cells["AB4"];
-            ExcelCell cellAC = worksheet.Cells["AC4"];
+            ExcelCell cellA = worksheet.Cells["A6"];
+            ExcelCell cellB = worksheet.Cells["B6"];
+            ExcelCell cellC = worksheet.Cells["C6"];
+            ExcelCell cellD = worksheet.Cells["D6"];
+            ExcelCell cellE = worksheet.Cells["E6"];
+            ExcelCell cellF = worksheet.Cells["F6"];
+            ExcelCell cellG = worksheet.Cells["G6"];
+            ExcelCell cellH = worksheet.Cells["H6"];
+            ExcelCell cellI = worksheet.Cells["I6"];
+            ExcelCell cellJ = worksheet.Cells["J6"];
+            ExcelCell cellK = worksheet.Cells["K6"];
+            ExcelCell cellL = worksheet.Cells["L6"];
+            ExcelCell cellM = worksheet.Cells["M6"];
+            ExcelCell cellN = worksheet.Cells["N6"];
+            ExcelCell cellO = worksheet.Cells["O6"];
+            ExcelCell cellP = worksheet.Cells["P6"];
+            ExcelCell cellQ = worksheet.Cells["Q6"];
+            ExcelCell cellR = worksheet.Cells["R6"];
+            ExcelCell cellS = worksheet.Cells["S6"];
+            ExcelCell cellT = worksheet.Cells["T6"];
+            ExcelCell cellU = worksheet.Cells["U6"];
+            ExcelCell cellV = worksheet.Cells["V6"];
+            ExcelCell cellW = worksheet.Cells["W6"];
+            ExcelCell cellY = worksheet.Cells["Y6"];
+            ExcelCell cellX = worksheet.Cells["X6"];
+            ExcelCell cellZ = worksheet.Cells["Z6"];
+            ExcelCell cellAA = worksheet.Cells["AA6"];
+            ExcelCell cellAB = worksheet.Cells["AB6"];
+            ExcelCell cellAC = worksheet.Cells["AC6"];
 
             cellA.Value = "Date";
             cellB.Value = "Time";
@@ -161,7 +161,7 @@ namespace FrigdeDownloadAidV3
         {
             Dictionary<DateTime, events> dic = EventLogDictionary.GetDictionary();
 
-            int cell_counter = 5;
+            int cell_counter = 7;
 
             foreach (var line in dic.Keys)
             {
@@ -199,7 +199,9 @@ namespace FrigdeDownloadAidV3
                 cellB.Value = dic[line].time;
                 cellC.Value = dic[line].set;
                 cellD.Value = dic[line].box;
+                cellD.Style.Font.Color = SpreadsheetColor.FromName(ColorName.Red);
                 cellE.Value = dic[line].coil;
+                cellE.Style.Font.Color = SpreadsheetColor.FromName(ColorName.Blue);
                 cellF.Value = dic[line].Hp;
                 cellG.Value = dic[line].Lp;
                 cellH.Value = dic[line].V_AC;
